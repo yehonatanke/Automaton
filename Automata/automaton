@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle]
+	q0 [label="" root=true]
+	q1
+	q2 [label="" shape=doublecircle]
+	q0 -> q1 [label=a]
+	q1 -> q1 [label=a]
+	q1 -> q2 [label=b]
+	q2 -> q2 [label=a]
+	q2 -> q2 [label=b]
+}
